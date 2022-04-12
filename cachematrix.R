@@ -32,7 +32,7 @@ cacheSolve <- function(x,...) {
     return(m)
   }
   data<-y$get()
-  ## this is not inverse just to replace the code of inversion
+  ## this is not matrix inversion just to replace the code of inversion
   m2<-matrix(nrow=ncol(x),ncol=nrow(x))
   j<-1
   while (j <= ncol(data))
